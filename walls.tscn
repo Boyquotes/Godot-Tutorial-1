@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bxkmbcx6f8syp"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_hybsp"]
+b = Vector2(57, 194)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_e6jwe"]
+a = Vector2(115, 324)
+b = Vector2(282, 449)
+
+[node name="StaticBody2D" type="StaticBody2D"]
+
+[node name="CollisionPolygon2D" type="CollisionShape2D" parent="."]
+position = Vector2(58, 130)
+shape = SubResource("SegmentShape2D_hybsp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("SegmentShape2D_e6jwe")

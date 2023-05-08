@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bw2f6jw0h83pj"]
+
+[node name="Maze" type="Area2D"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PackedVector2Array(137, 121, 304, 311, 183, 476, 517, 570, 675, 221, 1054, 249, 1063, 107, 1117, 110, 1116, 7, 912, 2, 901, 97, 945, 98, 947, 145, 623, 124, 454, 417, 383, 402, 458, 252, 257, 73, 263, 1, 85, -1, 62, 86)
+
+[node name="Polygon2D" type="Polygon2D" parent="CollisionPolygon2D"]
+polygon = PackedVector2Array(137, 121, 304, 311, 183, 476, 517, 570, 675, 221, 1054, 249, 1063, 107, 1117, 110, 1116, 7, 912, 2, 901, 97, 945, 98, 947, 145, 623, 124, 454, 417, 383, 402, 458, 252, 257, 73, 263, 1, 85, -1, 62, 86)
